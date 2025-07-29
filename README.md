@@ -36,7 +36,7 @@ Trusted Zone
 
 # Customer
 
-The Customer trusted table is created via an AWS Glue script. All Customers who agreed to share their data for research purposes are included. 
+The Customer trusted table is created via an AWS Glue script [customer_landing_to_trusted.py](customer/trusted/customer_landing_to_trusted.py). All Customers who agreed to share their data for research purposes are included. 
 ![alt text](customer/trusted/Screenshot_sharewithresearchasofdate.png)
 
 </details>

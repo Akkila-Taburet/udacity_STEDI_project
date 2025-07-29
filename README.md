@@ -62,8 +62,14 @@ Curated Zone
 
 # Customer
 
-The Customer curated table has only the customer included that have accelerometer data and the customer agreed to share the data. Its created via the following script
+The Customer curated table has only the customer included that have accelerometer data and the customer agreed to share the data.
+Its also GDPR complaint because personal data is removed. Its created via the following script
 [customer_trusted_to_curated.py](customer/curated/customer_trusted_to_curated.py).
 
+# Maschine Learning
+
+This table has the step trainer and the accelerometer data from customer who agreed to share their data. 
+Personal informations are removed. Its created via the following script
+[step_trainer_trusted_to_curated.py](step_trainer/curated/customer_trusted_to_curated.py).
  
 </details>

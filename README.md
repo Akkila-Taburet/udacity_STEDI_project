@@ -42,6 +42,6 @@ The Customer trusted table is created via an AWS Glue script [customer_landing_t
 
 # Accelerometer
 
-The Accelerometer trusted table is created via the following AWS Glue script [accelerometer_landing_to_trusted.py](customer/trusted/accelerometer_landing_to_trusted.py).
+The Accelerometer trusted table is created via the following AWS Glue script [accelerometer_landing_to_trusted.py](accelerometer/trusted/accelerometer_landing_to_trusted.py).
 
 </details>

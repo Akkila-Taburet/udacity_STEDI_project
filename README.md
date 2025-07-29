@@ -50,7 +50,7 @@ Its only the data included after they agreed to share their data.
 The Step Trainer trusted table is created via the following AWS Glue script [step_trainer_landing_to_trusted.py](step_trainer/trusted/step_trainer_landing_to_trusted.py). 
 There is only the data keept that has accelerometer data and the customer agreed to share it. 
 
-## Row Count evidence
+## Row Count Evidence
 ![alt text](trusted_row_count.png)
 Note: The step trainer trusted table has the row count because I used the customer curated table. If I would use the customer trusted table the row count would be 14460. 
 </details>
@@ -71,5 +71,10 @@ Its also GDPR complaint because personal data is removed. Its created via the fo
 This table has the step trainer and the accelerometer data from customer who agreed to share their data. 
 Personal informations are removed. Its created via the following script
 [step_trainer_trusted_to_curated.py](step_trainer/curated/customer_trusted_to_curated.py).
+The glue table is called machine_learning_curated.
+
+## Row Count Evidence
+![alt text](curated_row_count.png)
+
  
 </details>

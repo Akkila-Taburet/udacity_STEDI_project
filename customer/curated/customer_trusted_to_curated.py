@@ -34,6 +34,7 @@ lastupdatedate,
 sharewithresearchasofdate,
 sharewithpublicasofdate,
 sharewithfriendsasofdate from cust left join acc on cust.email = acc.user
+where acc.timestamp > cust.sharewithresearchasofdate
 '''
 SQLQuery_node1753779168375 = sparkSqlQuery(glueContext, query = SqlQuery0, mapping = {"cust":get_customer_trusted_node1753778995396, "acc":getaccelerometer_trusted_node1753779067509}, transformation_ctx = "SQLQuery_node1753779168375")
 

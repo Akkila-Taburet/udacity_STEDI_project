@@ -47,6 +47,10 @@ Its only the data included after they agreed to share their data.
 
 # Step Trainer
 
-The Step Trainer trusted table is created via the following AWS Glue script [step_trainer_landing_to_trusted.py](step_trainer/trusted/step_trainer_landing_to_trusted.py).
+The Step Trainer trusted table is created via the following AWS Glue script [step_trainer_landing_to_trusted.py](step_trainer/trusted/step_trainer_landing_to_trusted.py). 
+There is only the data keept that has accelerometer data and the customer agreed to share it. 
+
+## Row Count evidence
+
 
 </details>

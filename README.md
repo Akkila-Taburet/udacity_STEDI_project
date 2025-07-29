@@ -52,5 +52,14 @@ There is only the data keept that has accelerometer data and the customer agreed
 
 ## Row Count evidence
 ![alt text](trusted_row_count.png)
+Note: The step trainer trusted table has the row count because I used the customer curated table. If I would use the customer trusted table the row count would be 14460. 
+</details>
 
+<details>
+<summary>
+Curated Zone
+</summary>
+
+
+ 
 </details>

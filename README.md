@@ -51,6 +51,6 @@ The Step Trainer trusted table is created via the following AWS Glue script [ste
 There is only the data keept that has accelerometer data and the customer agreed to share it. 
 
 ## Row Count evidence
-
+![alt text](customer/trusted/trusted_row_count.png)
 
 </details>

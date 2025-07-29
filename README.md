@@ -34,7 +34,7 @@ All Customers are currently included even they not agreed to share their data fo
 Trusted Zone
 </summary>
 
-## Customer
+# Customer
 
 The Customer trusted table is created via an AWS Glue script. All Customers who agreed to share their data for research purposes are included. 
 ![alt text](customer/trusted/Screenshot_sharewithresearchasofdate.png)

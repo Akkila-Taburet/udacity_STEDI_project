@@ -17,6 +17,7 @@ Landing Zone
  (SQL_Tables/step_trainer_landing.sql)
 
 These are AWS Glue Tables and can get queried by AWS Athena
+
 Row Count:
  ![alt text](SQL_Tables/screenshot_tableRows.png)
 

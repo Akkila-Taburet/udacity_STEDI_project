@@ -24,7 +24,7 @@ These are AWS Glue Tables and can get queried by AWS Athena
 Row Count:
  ![alt text](SQL_Tables/screenshot_tableRows.png)
 
-All Customers are currently included even they not agreed to share their data for research purposes 
+All Customers are currently included even they not agreed to share their data for research purposes:
 ![alt text](SQL_Tables/screenshot_shareWithResearchAsOfDate.png)
 
 </details>
@@ -34,3 +34,8 @@ All Customers are currently included even they not agreed to share their data fo
 Trusted Zone
 </summary>
 
+##Customer
+The Customer trusted table is created via an AWS Glue script. All Customers who agreed to share their data for research purposes are included. 
+[customer_landing.sql](customer/trusted/Screenshot_sharewithresearchasofd.png)
+
+</details>

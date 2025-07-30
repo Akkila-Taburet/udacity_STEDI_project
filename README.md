@@ -14,10 +14,15 @@ Landing Zone
  The raw data is stored in the landing tables. These tables got create with SQL DDL transactions.
  
  [accelerometer_landing.sql](SQL_Tables/accelerometer_landing.sql)
+ ![alt text](SQL_Tables/accelerometer_landing.png)
+ 
  
  [customer_landing.sql](SQL_Tables/customer_landing.sql)
+ ![alt text](SQL_Tables/customer_landing.png)
+ 
  
  [step_trainer_landing.sql](SQL_Tables/step_trainer_landing.sql)
+ ![alt text](SQL_Tables/step_trainer_landing.png)
 
 These are AWS Glue Tables and can get queried by AWS Athena
 
